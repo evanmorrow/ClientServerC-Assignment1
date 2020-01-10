@@ -36,6 +36,7 @@ namespace WindowsService1
             appLog.WriteEntry(s);
         }
 
+        // Evan
         protected override void OnStart(string[] args)
         {
             eventLog1.WriteEntry("WindowsService1 started.");
